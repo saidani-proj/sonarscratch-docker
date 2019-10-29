@@ -22,7 +22,7 @@ show_help () {
     echo "   version   Print current version and quit"
     echo
     echo Run \'sn-scratch COMMAND --help\' \for more information on a command
-    echo See https://github.com \for more details and examples
+    echo See https://github.com/tcdorg/sonarscratch-docker \for more details and examples
 }
 
 if [ "$1" == "--help" ] || [ "$1" == "-h" ] || [ "$1" == "help" ] ; then
