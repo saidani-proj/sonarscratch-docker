@@ -2,9 +2,9 @@
 
 echo Start SONARSCRATCH container...
 
-DEBUG=
-if [ "$1" == "-d" ]; then
-    DEBUG=-ai
+ATTACH_INTERACTIVE=
+if [ "$1" == "--debug" ]; then
+    ATTACH_INTERACTIVE=-ai
 fi
 
-docker start $DEBUG sonarqube-sonarscratch
+docker start $ATTACH_INTERACTIVE sonarqube-sonarscratch
