@@ -107,12 +107,12 @@ sn-scratch new ROOT NAME
 If you have a small configuration (*RAM*), your computer can freeze. To avoid this, you must launch *SonarQube* with memory limitation. The option ``--limit`` is the solution, so execute this command (with **850 Mb** as memory limit) :
 
 ````bash
-sn-scratch new ROOT NAME --limit 850m
+sn-scratch new ROOT [NAME] --limit 850m
 ````
 
 **SonarSource** (the company behind *SonarQube*) release new version, you want to test it.
 You launch *sn-scratch* and you find that's not works. Don't panic, execute *sn-scratch* using the latest working *SonarQube* image using this command (with version 7.9 instead 8.0) :
 
 ````bash
-sn-scratch new ROOT NAME --name sonarqube:7.9-community
+sn-scratch new ROOT [NAME] --name sonarqube:7.9-community
 ````

@@ -37,7 +37,7 @@ elif [ "$1" == "--version" ] || [ "$1" == "-v" ] || [ "$1" == "version" ]; then
 elif [ "$1" == "new" ]; then
     if [ "$2" == "--help" ] || [ "$2" == "-h" ]; then
         echo
-        echo Usage : sn-scratch new ROOT NAME [OPTIONS]
+        echo Usage : sn-scratch new ROOT [NAME] [OPTIONS]
         echo
         echo Start new Sonar Scratch container using custom configuration image
         echo
@@ -65,8 +65,8 @@ elif [ "$1" == "factory" ]; then
 elif [ "$1" == "image" ]; then
     if [ "$2" == "--help" ] || [ "$2" == "-h" ]; then
         echo
-        echo "Usage : sn-scratch image pull ROOT NAME"
-        echo "        sn-scratch image push ROOT NAME"
+        echo "Usage : sn-scratch image pull ROOT [NAME]"
+        echo "        sn-scratch image push ROOT [NAME]"
         echo
         echo Pull ou push a Sonar Scratch configuration image
         echo
