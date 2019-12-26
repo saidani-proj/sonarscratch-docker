@@ -1,6 +1,6 @@
 # How install SONARSCRATCH
 
-You can follow theses steps to install SONARSCRATCH :
+You can follow theses steps to install *SONARSCRATCH* :
 
 1. Install [**docker**](https://www.docker.com). Docker is available for Windows, MacOS and Linux. You can install it following this [link](https://docs.docker.com/install).
 
