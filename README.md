@@ -6,7 +6,7 @@
 
 ## Install and examples
 
-See this [document](content/doc/How-Install.md) for installation et this [document](content/doc/How-works.md) for *SONARSCRATCH* in action.
+See this [document](content/doc/How-Install.md) for installation and this [document](content/doc/How-works.md) for *SONARSCRATCH* in action.
 
 ## Contributing
 
