@@ -33,6 +33,9 @@ So run this command :
 sn-scratch factory
 ```
 
+If the docker command needs to be run as **root**, flow the steps in this [link](https://docs.docker.com/install/linux/linux-postinstall) (section **Manage Docker as a non-root user**). Otherwise you must
+run the previous command as root using **sudo**.
+
 Once the application started (can take time), login as administrator using default login `admin` and default password `admin`.
 
 ![Login](How-works/login.png)
