@@ -91,7 +91,7 @@ of possible security threat. If you mark these issues as resolved, the next time
 they reappear. The solution is to remove these *Hotspot* rules from configuration and create another one
 contains only these rules. In this manner, you isolate this kind of issues.
 
-To create a new different configuration, you must use configuration naming. So run the default or the factory configuration. Reset profiles add *Hotspot* rules :
+To create a new different configuration, you must use configuration naming. So run the default or the factory configuration. Reset profiles and add *Hotspot* rules :
 
 ![Hotspot rules](How-works/hotspot-rules.png)
 
