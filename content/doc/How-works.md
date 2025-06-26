@@ -9,7 +9,7 @@ You find that's complicated (Java installation, data base installation...), you 
 docker pull sonarqube
 ```
 
-After pulling *SonarQube* image, you run a container et and you start analyzing your project.
+After pulling *SonarQube* image, you run a container and you start analyzing your project.
 
 Because you are very careful with code quality, you put theses rules :
 
